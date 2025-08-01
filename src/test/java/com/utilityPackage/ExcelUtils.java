@@ -13,11 +13,12 @@ public class ExcelUtils {
 	static FileInputStream fi;
 	static XSSFWorkbook wb;
 	static XSSFSheet sheet;
-	static XSSFRow currentrow;
+	static XSSFRow rw;
 	static XSSFCell cl;
 	
 /*
- *  This method is used for getting the cell data from the excel file.
+ *  This method is used for getting the cell data from the excel file. 
+ *  
  */	
 	
 	
@@ -31,10 +32,10 @@ public class ExcelUtils {
 	Object[][] data = new Object[rowCount][cellCount];
 	
 	for(int i=1; i<=rowCount;i++) {
-		currentrow=sheet.getRow(i);
+		rw=sheet.getRow(i);
 		
 		for (int j=0;j<cellCount;j++) {
-		cl=currentrow.getCell(j);
+		cl=rw.getCell(j);
 		
 		data[i-1][j]=cl !=null ? cl.toString(): "";
 		}		
@@ -44,3 +45,5 @@ public class ExcelUtils {
 	return data;
 	}
 }
+
+

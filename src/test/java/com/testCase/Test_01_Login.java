@@ -35,10 +35,8 @@ public class Test_01_Login extends BaseClass {
 	    }
 
 	    Thread.sleep(Duration.ofSeconds(1));
-	}
-
-	
-	
-	
-	
+	    
+	   
+	   
+	}	
 }

@@ -9,6 +9,4 @@ public class DataProviderUtils {
 	    return ExcelUtils.readExcelData("SignUp"); // sheet name from your Excel
 	}
 
-	
-	
 	}

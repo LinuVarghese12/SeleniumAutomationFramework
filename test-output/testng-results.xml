@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-31T14:37:00 IST" name="Default suite" finished-at="2025-07-31T14:37:23 IST" duration-ms="22897">
+  <suite started-at="2025-08-02T01:09:08 IST" name="Default suite" finished-at="2025-08-02T01:09:29 IST" duration-ms="21298">
     <groups>
     </groups>
-    <test started-at="2025-07-31T14:37:00 IST" name="Default test" finished-at="2025-07-31T14:37:23 IST" duration-ms="22897">
+    <test started-at="2025-08-02T01:09:08 IST" name="Default test" finished-at="2025-08-02T01:09:29 IST" duration-ms="21298">
       <class name="com.testCase.Test_01_Login">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testCase.Test_01_Login@2e377400]" started-at="2025-07-31T14:37:00 IST" name="setUp" finished-at="2025-07-31T14:37:08 IST" duration-ms="7733" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testCase.Test_01_Login@2e377400]" started-at="2025-08-02T01:09:08 IST" name="setUp" finished-at="2025-08-02T01:09:14 IST" duration-ms="6362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="userLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testCase.Test_01_Login@2e377400]" started-at="2025-07-31T14:37:09 IST" name="userLogin" data-provider="loginData" finished-at="2025-07-31T14:37:13 IST" duration-ms="3499" status="PASS">
+        <test-method signature="userLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testCase.Test_01_Login@2e377400]" started-at="2025-08-02T01:09:15 IST" name="userLogin" data-provider="loginData" finished-at="2025-08-02T01:09:19 IST" duration-ms="3480" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userLogin -->
-        <test-method signature="userLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testCase.Test_01_Login@2e377400]" started-at="2025-07-31T14:37:13 IST" name="userLogin" data-provider="loginData" finished-at="2025-07-31T14:37:16 IST" duration-ms="3464" status="PASS">
+        <test-method signature="userLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testCase.Test_01_Login@2e377400]" started-at="2025-08-02T01:09:19 IST" name="userLogin" data-provider="loginData" finished-at="2025-08-02T01:09:22 IST" duration-ms="3377" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userLogin -->
-        <test-method signature="userLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testCase.Test_01_Login@2e377400]" started-at="2025-07-31T14:37:16 IST" name="userLogin" data-provider="loginData" finished-at="2025-07-31T14:37:20 IST" duration-ms="3428" status="PASS">
+        <test-method signature="userLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testCase.Test_01_Login@2e377400]" started-at="2025-08-02T01:09:22 IST" name="userLogin" data-provider="loginData" finished-at="2025-08-02T01:09:25 IST" duration-ms="3407" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userLogin -->
-        <test-method signature="userLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testCase.Test_01_Login@2e377400]" started-at="2025-07-31T14:37:20 IST" name="userLogin" data-provider="loginData" finished-at="2025-07-31T14:37:23 IST" duration-ms="3369" status="PASS">
+        <test-method signature="userLogin(java.lang.String,java.lang.String)[pri:0, instance:com.testCase.Test_01_Login@2e377400]" started-at="2025-08-02T01:09:25 IST" name="userLogin" data-provider="loginData" finished-at="2025-08-02T01:09:29 IST" duration-ms="3377" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,7 +75,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCase.Test_01_Login@2e377400]" started-at="2025-07-31T14:37:23 IST" name="tearDown" finished-at="2025-07-31T14:37:23 IST" duration-ms="434" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testCase.Test_01_Login@2e377400]" started-at="2025-08-02T01:09:29 IST" name="tearDown" finished-at="2025-08-02T01:09:29 IST" duration-ms="622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
