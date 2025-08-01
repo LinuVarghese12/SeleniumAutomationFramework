@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="5">
+  <listeners>
+    <listener class-name="com.utilityPackage.ExtentListener"/>
+  </listeners>
+
+  <test name="Test">
+    <classes>
+      <!-- Only include actual test classes here. 
+           If BaseClass is a superclass/helper and not a test, remove it. -->
+      <class name="com.testCase.Test_01_Login"/>
+    </classes>
+  </test>
+</suite>
