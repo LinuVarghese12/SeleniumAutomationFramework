@@ -9,7 +9,8 @@
     <classes>
       <!-- Only include actual test classes here. 
            If BaseClass is a superclass/helper and not a test, remove it. -->
-      <class name="com.testCase.Test_01_Login"/>
+     <!--  <class name="com.testCase.Test_01_Login"/> -->
+     	   <class name="com.testCase.PetStore01_LandingTest"/>
     </classes>
   </test>
 </suite>
